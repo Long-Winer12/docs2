@@ -1,0 +1,71 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Jester Software Systems",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "https://cdn.jestersoftware.xyz/assets/logo.png",
+  "colors": {
+    "primary": "#3E47C9",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#3E47C9",
+      "to": "#EA1C24"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://jestersoftware.xyz"
+    },
+    {
+      "name": "Status",
+      "url": "https://jestersoftware.xyz/status"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Discord Support",
+    "url": "https://api.jestersoftware.xyz/bots"
+  },
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://docs.jestersoftware.xyz"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://api.jestersoftware.xyz/bots"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://blog.jestersoftware.xyz"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Documentation",
+      "pages": [
+        "gettingstarted",
+        "faq",
+        "config",
+        "troubleshooting"
+      ]
+    },
+    {
+      "group": "Plugins",
+      "pages": [
+        "plugins/automod",
+        "plugins/welcome"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "discord": "https://api.jestersoftware.xyz/bots",
+    "x": "https://x.com/jestersoftware"
+  }
+}
